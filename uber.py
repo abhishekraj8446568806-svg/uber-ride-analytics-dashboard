@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the Excel file and parse the correct sheet
-path = 'https://gitlab.crio.do/me_notebook/me_jupyter_uberanalysis/-/raw/master/Uber_ride_analysis_dataset.csv'
+path = 'Uber_ride_analysis_dataset.csv'
 df = pd.read_csv(path,header=0)
 df.head()
 
